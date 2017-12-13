@@ -6,8 +6,8 @@ Just a simple web service for testing out downstreams handle a broken GZIP strea
 
 Provides 2 endpoints:
 
-* `/api/zip/bad` returns a truncated gzipped response
-* `/api/zip/good` returns a complete gzipped response
+* `/zip/bad` returns a truncated gzipped response
+* `/zip/good` returns a complete gzipped response
 
 ## Running
 
