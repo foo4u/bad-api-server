@@ -1,0 +1,19 @@
+plugins {
+    id "org.springframework.boot" version "1.5.9.RELEASE"
+}
+
+apply plugin: 'java'
+
+group 'com.example'
+version '1.0.0'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web:1.5.9.RELEASE")
+}
